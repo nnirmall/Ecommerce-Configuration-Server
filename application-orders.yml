@@ -2,9 +2,9 @@ server:
     port: 8085
 spring:
     application:
-            name: Order-Service
+        name: Order-Service
     data:
-    mongodb-auto: create-drop
-    mongodb:
-      uri: mongodb+srv://nnirmall:nirmal123@ecommercesystem.1qknywr.mongodb.net/?retryWrites=true&w=majority&appName=ECommerceSystem
-      database: ECommerceSystem
+        mongodb:
+            database: ECommerceSystem
+            uri: mongodb+srv://nnirmall:nirmal123@ecommercesystem.1qknywr.mongodb.net/?retryWrites=true&w=majority&appName=ECommerceSystem
+        mongodb-auto: create-drop
