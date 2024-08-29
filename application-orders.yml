@@ -7,4 +7,3 @@ spring:
         mongodb:
             database: ECommerceSystem
             uri: mongodb+srv://nnirmall:nirmal123@ecommercesystem.1qknywr.mongodb.net/?retryWrites=true&w=majority&appName=ECommerceSystem
-        mongodb-auto: create-drop
