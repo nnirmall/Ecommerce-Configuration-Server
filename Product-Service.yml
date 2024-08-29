@@ -1,19 +1,20 @@
-server:
-  port=8081
-spring:
-  application:
-    name=Product-Service
-  datasource:
-    driver-class-name=com.mysql.cj.jdbc.Driver
-  jpa:
-    properties:
-      hibernate:
-        format_sql=true
-        dialect = org.hibernate.dialect.MySQLDialect
-        ddl-auto=create-drop
 eureka:
-  client:
-  service-url:
-    defaultZone=http://localhost:8761/eureka
-  instance:
-    ip-address=localhost
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka
+    instance:
+        ip-address: localhost
+server:
+    port: 8081
+spring:
+    application:
+        name: Product-Service
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQLDialect
+                format_sql: true
